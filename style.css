@@ -1,0 +1,64 @@
+/* header img {
+  display: flex;
+  align-self: flex-start;
+  margin-top:30px
+} */
+
+
+img, nav, ul {
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+
+
+
+/* ul {
+display:flex;
+margin-right: 100px;
+margin-top: 30px;
+justify-content: space-evenly;
+} */
+
+
+main ul {
+  display: flex;
+  justify-content:space-evenly;
+}
+
+/*Scrollable Conatianer*/
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-left: 100px;
+}
+
+
+p {
+  height:300px;
+  padding-left: 1000px;
+  padding-right:100px;
+  overflow:auto;
+  
+}
+
+
+
+footer {
+  background-color: grey;
+  height: 150px;
+
+}
+
+/* Mover State with a transition */
+button {
+  transition: 500ms;
+}
+
+button:hover{
+  background: green;
+}
